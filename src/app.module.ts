@@ -19,7 +19,7 @@ import { CategoriaModule } from './categoria/categoria.module';
     }),
     CategoriaModule,
   ],
-  controllers: [],
+  controllers: [AppController],
   providers: [],
 })
 export class AppModule {}
